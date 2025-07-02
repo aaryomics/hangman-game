@@ -21,5 +21,5 @@ Players win by revealing all letters before running out of petals
 
 🔗 Play the Game
 👉 Click here to play
-()
+(https://hangman-game1234.netlify.app/)
 
