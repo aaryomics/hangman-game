@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+  font-family: 'Press Start 2P', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  cursor: url('assets/cursor-flower.png'), auto;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.flower-area {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower-area img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.flower-base {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.petal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: none;
+}
+
+.word {
+  font-size: 1.4rem;
+  letter-spacing: 0.8rem;
+  color: #333;
+  font-weight: normal;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(13, 40px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.keyboard button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9aebe;
+  color: #333;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.keyboard button:hover {
+  background-color: #ffccdd;
+}
+
+.keyboard button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.main-title {
+  font-size: 1.4rem;
+  color: #f48fb1;
+  font-family: 'Press Start 2P', monospace;
+  margin-top: 10px;
+}
+
+.rules {
+  font-size: 0.75rem;
+  font-family: 'Press Start 2P', monospace;
+  color: #888;
+  padding: 10px 30px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.status-bar {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.6rem;
+  color: #444;
+  margin-top: 10px;
+}
+
+.hint {
+  color: #b14576;
+  margin-top: 6px;
+}
+
+.hidden {
+  display: none;
+}
+
