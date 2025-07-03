@@ -1,5 +1,5 @@
 # Hangman game
-A modern, visually engaging adaptation of the classic Hangman game — designed with a soft, pastel aesthetic and flower-themed mechanics. Instead of drawing a figure, this version gently removes flower petals with each incorrect guess, providing a calm yet challenging gameplay experience.
+A modern, visually engaging adaptation of the classic Hangman game - designed with a soft, pastel aesthetic and flower-themed mechanics. Instead of drawing a figure, this version gently removes flower petals with each incorrect guess, providing a calm yet challenging gameplay experience.
 
 ✨ Features
 - Clean pixel-art style background and assets
